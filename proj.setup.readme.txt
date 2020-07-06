@@ -1,0 +1,7 @@
+npm i typescript electron -g
+npx create-electron-app supportx --template=typescript-webpack
+
+npm i react react-dom react-router-dom react-hot-loader @hot-loader/react-dom
+npm i -D @types/react @types/react-router @types/react-router-dom
+npm i -D node-sass sass-loader 
+npm i -D babel-loader @babel/core @babel/preset-env @babel/preset-react @babel/preset-typescript
